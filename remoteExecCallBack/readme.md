@@ -35,7 +35,8 @@ OR
 
 Now that the functions are compiled and ready you can use them
 
-On the *CLIENT* run this code in a (https://community.bistudio.com/wiki/Scheduler#Scheduled_Environment)[Scheduled Environment] :
+On the *CLIENT* run this code in a [Scheduled Environment](https://community.bistudio.com/wiki/Scheduler#Scheduled_Environment) :
+
 ```sqf
    _result = [
     [5,5],            //add 5 plus 5
