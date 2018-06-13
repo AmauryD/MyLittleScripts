@@ -12,7 +12,7 @@ Let's compile a function on the *SERVER* that adds 2 numbers and return the resu
 
 ### Using remoteExecCallBack to compile
 ```sqf
-  function_add = ["addition.sqf"] call fnc_compileRemoteExecCallBack;
+  function_add = ["addition.sqf"] call fnc_compileRemoteCallBack;
 ```
 OR
 ```sqf
@@ -21,7 +21,7 @@ OR
       params ["_num1","_num2"];
       _num1 + _num2 // last value returned
     }
-  ] call fnc_compileRemoteExecCallBack;
+  ] call fnc_compileRemoteCallBack;
 ```
 
 ### Using macros_remoteExec file (the function name will be function_add)
