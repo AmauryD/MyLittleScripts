@@ -2,7 +2,7 @@
 
 Function to get an instant callback on remoteExec functions.
 
-##Examples
+## Examples
 
 *Compile fn_remoteExecCallback.sqf and fn_compileRemoteExecCallback.sqf first with CfgFunctions or normal preprocessFileLineNumbers*
 
@@ -10,7 +10,7 @@ In the examples the functions name will be "fnc_remoteExecCallBack" and "fnc_com
 
 Let's compile a function on the *SERVER* that adds 2 numbers and return the result
 
-###Using remoteExecCallBack to compile
+### Using remoteExecCallBack to compile
 ```sqf
   function_add = ["addition.sqf"] call fnc_remoteExecCallBack;
 ```
@@ -24,7 +24,7 @@ OR
   ] call fnc_remoteExecCallBack;
 ```
 
-###Using macros_remoteExec file (the function name will be function_add)
+### Using macros_remoteExec file (the function name will be function_add)
 ```sqf
    #include "macros_remoteExec.h"
    CALLBACK_HEADER;
