@@ -27,10 +27,10 @@ OR
 ### Using macros_remoteExec file (the function name will be function_add)
 ```sqf
    #include "macros_remoteExec.h"
-   CALLBACK_HEADER;
+   CALLBACK_HEADER
     params ["_num1","_num2"];
     _num1 + _num2 // last value returned
-   CALLBACK_FOOTER;
+   CALLBACK_FOOTER
 ```
 
 Now that the functions are compiled and ready you can use them
